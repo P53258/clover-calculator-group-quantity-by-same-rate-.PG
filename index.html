@@ -1,0 +1,31 @@
+<div class="calculator-box">
+    <div class="header">Group Rate Calculator</div>
+    
+    <div class="input-area">
+        <input type="number" id="qty" placeholder="Quantity">
+        <input type="number" id="rate" placeholder="Rate">
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Rate</th>
+                    <th>Total</th>
+                    <th>Check</th>
+                    <th>Del</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                </tbody>
+            <tfoot>
+                <tr class="grand-total-row">
+                    <td id="grandQty">0</td> <td>Total</td>
+                    <td id="grandTotal" colspan="3">0.00</td> </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <button class="cancel-btn" onclick="clearAll()">Cancel</button>
+</div>
